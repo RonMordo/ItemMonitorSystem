@@ -1,0 +1,35 @@
+2024-11-13 17:53:04,527 - INFO - Connected to ZeroMQ publisher at tcp://localhost:5555
+2024-11-13 17:53:04,528 - ERROR - Error monitoring Detection Application output: 'NoneType' object has no attribute 'stdout'
+2024-11-13 17:53:04,530 - ERROR - Failed to source environment script: bash: line 1: /home/ron/hailo-rpi5-examples/setup_env.sh: No such file or directory
+2024-11-13 17:53:04,530 - ERROR - An error occurred in Detection Module: Environment activation failed: bash: line 1: /home/ron/hailo-rpi5-examples/setup_env.sh: No such file or directory
+2024-11-13 17:53:05,530 - INFO - Detection Module stopped gracefully.
+2024-11-13 17:53:26,494 - INFO - Connected to ZeroMQ publisher at tcp://localhost:5555
+2024-11-13 17:53:26,494 - ERROR - Error monitoring Detection Application output: 'NoneType' object has no attribute 'stdout'
+2024-11-13 17:53:26,497 - ERROR - Failed to source environment script: bash: line 1: /home/ron/hailo-rpi5-examples/setup_env.sh: No such file or directory
+2024-11-13 17:53:26,497 - ERROR - An error occurred in Detection Module: Environment activation failed: bash: line 1: /home/ron/hailo-rpi5-examples/setup_env.sh: No such file or directory
+2024-11-13 17:53:27,496 - INFO - ZeroMQ subscriber closed.
+2024-11-13 17:53:27,496 - INFO - Detection Module stopped gracefully.
+2024-11-13 17:53:29,209 - INFO - Connected to ZeroMQ publisher at tcp://localhost:5555
+2024-11-13 17:53:29,210 - ERROR - Error monitoring Detection Application output: 'NoneType' object has no attribute 'stdout'
+2024-11-13 17:53:29,212 - ERROR - Failed to source environment script: bash: line 1: /home/ron/hailo-rpi5-examples/setup_env.sh: No such file or directory
+2024-11-13 17:53:29,213 - ERROR - An error occurred in Detection Module: Environment activation failed: bash: line 1: /home/ron/hailo-rpi5-examples/setup_env.sh: No such file or directory
+2024-11-13 17:53:30,213 - INFO - ZeroMQ subscriber closed.
+2024-11-13 17:53:30,213 - INFO - Detection Module stopped gracefully.
+2024-11-13 17:57:18,579 - INFO - Connected to ZeroMQ publisher at tcp://localhost:5555
+2024-11-13 17:57:18,579 - ERROR - Error monitoring Detection Application output: 'NoneType' object has no attribute 'stdout'
+2024-11-13 17:57:18,644 - INFO - Virtual environment activated successfully.
+2024-11-13 17:57:18,648 - INFO - Detection Application launched with input: /home/ron/Downloads/test_vid.mp4
+2024-11-13 17:57:18,648 - INFO - Detection Module started successfully.
+2024-11-13 17:57:21,483 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175721_483206_0.jpg
+2024-11-13 17:57:23,667 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175723_667128_1.jpg
+2024-11-13 17:57:23,836 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175723_834765_2.jpg
+2024-11-13 17:57:27,143 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175727_142709_3.jpg
+2024-11-13 17:57:30,324 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175730_324188_4.jpg
+2024-11-13 17:57:35,115 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175735_115182_5.jpg
+2024-11-13 17:57:35,117 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175735_116577_6.jpg
+2024-11-13 17:57:36,134 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175736_133602_7.jpg
+2024-11-13 17:57:36,316 - INFO - Saved annotated frame to /home/ron/projects/littering_detection_raspberry-hailo8L/output/person_detected_20241113_175736_315686_8.jpg
+2024-11-13 17:57:43,069 - INFO - Received termination signal. Shutting down...
+2024-11-13 17:57:43,328 - INFO - ZeroMQ subscriber closed.
+2024-11-13 17:57:48,070 - ERROR - Failed to terminate Detection Application subprocess: Command '['bash', '-c', "source /home/ron/projects/littering_detection_raspberry-hailo8L/hailo-rpi5-examples/setup_env.sh && python /home/ron/projects/littering_detection_raspberry-hailo8L/hailo-rpi5-examples/basic_pipelines/detection.py --input '/home/ron/Downloads/test_vid.mp4'"]' timed out after 5 seconds
+2024-11-13 17:57:48,070 - INFO - Detection Module stopped gracefully.

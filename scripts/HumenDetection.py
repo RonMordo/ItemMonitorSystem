@@ -21,10 +21,10 @@ class DetectionModule:
         - output_dir (str): Directory to save annotated frames.
         - zmq_address (str): ZeroMQ address to subscribe to (e.g., tcp://localhost:5555).
         """
-        self.env_script = '/home/ron/hailo-rpi5-examples/setup_env.sh'
-        self.detection_script = '/home/ron/hailo-rpi5-examples/basic_pipelines/detection.py'
+        self.env_script = '/home/ron/projects/littering_detection_raspberry-hailo8L/hailo-rpi5-examples/setup_env.sh'
+        self.detection_script = '/home/ron/projects/littering_detection_raspberry-hailo8L/hailo-rpi5-examples/basic_pipelines/detection.py'
         self.input_path = input_path
-        self.output_dir = '/home/ron/PycharmProjects/ItemMointorSystem/output'
+        self.output_dir = '/home/ron/projects/littering_detection_raspberry-hailo8L/output'
         self.zmq_address = 'tcp://localhost:5555'
         self.process = None
         self.monitor_thread = None
